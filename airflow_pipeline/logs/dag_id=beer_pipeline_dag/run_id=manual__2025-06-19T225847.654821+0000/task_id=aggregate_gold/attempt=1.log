@@ -1,0 +1,20 @@
+[2025-06-19T22:59:08.373+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-19T22:59:08.405+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beer_pipeline_dag.aggregate_gold manual__2025-06-19T22:58:47.654821+00:00 [queued]>
+[2025-06-19T22:59:08.418+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beer_pipeline_dag.aggregate_gold manual__2025-06-19T22:58:47.654821+00:00 [queued]>
+[2025-06-19T22:59:08.419+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-06-19T22:59:08.433+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): aggregate_gold> on 2025-06-19 22:58:47.654821+00:00
+[2025-06-19T22:59:08.443+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'beer_pipeline_dag', 'aggregate_gold', 'manual__2025-06-19T22:58:47.654821+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/beer_dag.py', '--cfg-path', '/tmp/tmp73h9rrgt']
+[2025-06-19T22:59:08.445+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=80) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-19T22:59:08.447+0000] {standard_task_runner.py:91} INFO - Job 31: Subtask aggregate_gold
+[2025-06-19T22:59:08.448+0000] {standard_task_runner.py:63} INFO - Started process 89 to run task
+[2025-06-19T22:59:08.469+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-19T22:59:08.536+0000] {task_command.py:426} INFO - Running <TaskInstance: beer_pipeline_dag.aggregate_gold manual__2025-06-19T22:58:47.654821+00:00 [running]> on host b50caf24fc7a
+[2025-06-19T22:59:08.651+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='lucasfilip54@gmail.com' AIRFLOW_CTX_DAG_OWNER='lucascarvalho' AIRFLOW_CTX_DAG_ID='beer_pipeline_dag' AIRFLOW_CTX_TASK_ID='aggregate_gold' AIRFLOW_CTX_EXECUTION_DATE='2025-06-19T22:58:47.654821+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-19T22:58:47.654821+00:00'
+[2025-06-19T22:59:08.653+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-19T22:59:09.558+0000] {logging_mixin.py:188} INFO - ✅ Agregações salvas com sucesso na camada Gold
+[2025-06-19T22:59:09.559+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-19T22:59:09.560+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-19T22:59:09.572+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=beer_pipeline_dag, task_id=aggregate_gold, run_id=manual__2025-06-19T22:58:47.654821+00:00, execution_date=20250619T225847, start_date=20250619T225908, end_date=20250619T225909
+[2025-06-19T22:59:09.628+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-19T22:59:09.647+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-19T22:59:09.649+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

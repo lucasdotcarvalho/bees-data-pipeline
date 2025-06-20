@@ -1,0 +1,20 @@
+[2025-06-20T00:00:03.717+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-20T00:00:03.743+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beer_pipeline.extrair_bronze scheduled__2025-06-19T00:00:00+00:00 [queued]>
+[2025-06-20T00:00:03.751+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beer_pipeline.extrair_bronze scheduled__2025-06-19T00:00:00+00:00 [queued]>
+[2025-06-20T00:00:03.752+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-06-20T00:00:03.763+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extrair_bronze> on 2025-06-19 00:00:00+00:00
+[2025-06-20T00:00:03.772+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=194) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-20T00:00:03.773+0000] {standard_task_runner.py:63} INFO - Started process 203 to run task
+[2025-06-20T00:00:03.771+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'beer_pipeline', 'extrair_bronze', 'scheduled__2025-06-19T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/beer_dag.py', '--cfg-path', '/tmp/tmp1qe32x4_']
+[2025-06-20T00:00:03.774+0000] {standard_task_runner.py:91} INFO - Job 38: Subtask extrair_bronze
+[2025-06-20T00:00:03.791+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-20T00:00:03.844+0000] {task_command.py:426} INFO - Running <TaskInstance: beer_pipeline.extrair_bronze scheduled__2025-06-19T00:00:00+00:00 [running]> on host b50caf24fc7a
+[2025-06-20T00:00:03.929+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='lucasfilip54@gmail.com' AIRFLOW_CTX_DAG_OWNER='lucascarvalho' AIRFLOW_CTX_DAG_ID='beer_pipeline' AIRFLOW_CTX_TASK_ID='extrair_bronze' AIRFLOW_CTX_EXECUTION_DATE='2025-06-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-19T00:00:00+00:00'
+[2025-06-20T00:00:03.930+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-20T00:00:04.243+0000] {logging_mixin.py:188} INFO -  Dados salvos em: /opt/***/data/bronze/breweries_2025-06-20.json
+[2025-06-20T00:00:04.245+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-20T00:00:04.246+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-20T00:00:04.257+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=beer_pipeline, task_id=extrair_bronze, run_id=scheduled__2025-06-19T00:00:00+00:00, execution_date=20250619T000000, start_date=20250620T000003, end_date=20250620T000004
+[2025-06-20T00:00:04.309+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-20T00:00:04.335+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-20T00:00:04.338+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,256 @@
+[2025-06-19T22:19:22.274+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:19:22.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:19:22.277+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:22.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:19:23.606+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:19:23.891+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:23.890+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:beer_silver_dag
+[2025-06-19T22:19:23.902+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:23.902+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:beer_silver_dag
+[2025-06-19T22:19:23.910+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:23.910+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:beer_silver_dag
+[2025-06-19T22:19:23.911+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:23.911+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:19:23.923+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:23.923+0000] {dag.py:3118} INFO - Creating ORM DAG for beer_silver_dag
+[2025-06-19T22:19:23.924+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:23.924+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:19:23.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 1.676 seconds
+[2025-06-19T22:19:54.746+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:19:54.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:19:54.751+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:54.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:19:55.094+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:19:55.121+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:55.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:19:55.137+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:19:55.136+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:19:55.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.431 seconds
+[2025-06-19T22:20:29.990+0000] {processor.py:161} INFO - Started process (PID=28) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:20:29.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:20:29.996+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:20:29.995+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:20:30.734+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:20:30.814+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:20:30.814+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:20:30.841+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:20:30.840+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:20:30.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.903 seconds
+[2025-06-19T22:21:01.588+0000] {processor.py:161} INFO - Started process (PID=32) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:21:01.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:21:01.592+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:21:01.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:21:01.989+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:21:02.024+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:21:02.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:21:02.044+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:21:02.044+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:21:02.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.494 seconds
+[2025-06-19T22:21:32.260+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:21:32.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:21:32.268+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:21:32.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:21:32.698+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:21:32.730+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:21:32.730+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:21:32.747+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:21:32.747+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:21:32.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.539 seconds
+[2025-06-19T22:22:03.555+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:22:03.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:22:03.558+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:22:03.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:22:03.891+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:22:03.921+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:22:03.920+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:22:03.936+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:22:03.936+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:22:03.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.422 seconds
+[2025-06-19T22:22:34.062+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:22:34.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:22:34.065+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:22:34.065+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:22:34.400+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:22:34.429+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:22:34.428+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:22:34.444+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:22:34.444+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:22:34.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.412 seconds
+[2025-06-19T22:23:04.613+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:23:04.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:23:04.617+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:23:04.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:23:04.926+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:23:04.952+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:23:04.952+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:23:04.967+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:23:04.967+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:23:05.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.409 seconds
+[2025-06-19T22:23:35.234+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:23:35.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:23:35.238+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:23:35.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:23:35.616+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:23:35.648+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:23:35.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:23:35.666+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:23:35.665+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:23:35.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.467 seconds
+[2025-06-19T22:24:05.802+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:24:05.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:24:05.806+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:24:05.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:24:06.189+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:24:06.219+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:24:06.219+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:24:06.236+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:24:06.236+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:24:06.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.467 seconds
+[2025-06-19T22:24:37.138+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:24:37.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:24:37.142+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:24:37.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:24:37.611+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:24:37.648+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:24:37.647+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:24:37.667+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:24:37.667+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:24:37.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.562 seconds
+[2025-06-19T22:25:07.821+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:25:07.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:25:07.825+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:25:07.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:25:08.167+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:25:08.201+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:25:08.200+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:25:08.218+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:25:08.218+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:25:08.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.432 seconds
+[2025-06-19T22:25:38.334+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:25:38.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:25:38.338+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:25:38.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:25:38.840+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:25:38.876+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:25:38.876+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:25:38.896+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:25:38.896+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:25:38.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.599 seconds
+[2025-06-19T22:26:09.753+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:26:09.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:26:09.757+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:26:09.756+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:26:10.099+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:26:10.132+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:26:10.132+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:26:10.150+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:26:10.150+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:26:10.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.433 seconds
+[2025-06-19T22:26:40.277+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:26:40.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:26:40.281+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:26:40.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:26:40.610+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:26:40.636+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:26:40.635+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:26:40.650+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:26:40.650+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:26:40.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.416 seconds
+[2025-06-19T22:27:10.783+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:27:10.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:27:10.786+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:27:10.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:27:11.105+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:27:11.134+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:27:11.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:27:11.150+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:27:11.150+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:27:11.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.407 seconds
+[2025-06-19T22:27:41.304+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:27:41.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:27:41.308+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:27:41.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:27:41.635+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:27:41.661+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:27:41.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:27:41.674+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:27:41.674+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:27:41.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.404 seconds
+[2025-06-19T22:28:11.787+0000] {processor.py:161} INFO - Started process (PID=84) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:28:11.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:28:11.790+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:28:11.790+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:28:12.119+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:28:12.156+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:28:12.155+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:28:12.171+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:28:12.171+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:28:12.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.414 seconds
+[2025-06-19T22:28:42.426+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:28:42.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:28:42.429+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:28:42.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:28:42.798+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:28:42.830+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:28:42.830+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:28:42.846+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:28:42.846+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:28:42.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.453 seconds
+[2025-06-19T22:29:12.993+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:29:12.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:29:12.996+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:29:12.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:29:13.319+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:29:13.348+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:29:13.347+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:29:13.362+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:29:13.361+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:29:13.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.398 seconds
+[2025-06-19T22:29:43.548+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:29:43.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:29:43.553+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:29:43.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:29:44.396+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:29:44.453+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:29:44.452+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:29:44.478+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:29:44.478+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:29:44.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.974 seconds
+[2025-06-19T22:30:14.675+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:30:14.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:30:14.678+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:30:14.677+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:30:15.056+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:30:15.090+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:30:15.090+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:30:15.109+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:30:15.108+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:30:15.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.469 seconds
+[2025-06-19T22:30:45.292+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:30:45.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:30:45.296+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:30:45.296+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:30:45.821+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:30:45.852+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:30:45.850+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:30:45.867+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:30:45.866+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:30:45.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.611 seconds
+[2025-06-19T22:31:16.713+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:31:16.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:31:16.717+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:31:16.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:31:17.075+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:31:17.105+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:31:17.104+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:31:17.120+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:31:17.120+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:31:17.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.447 seconds
+[2025-06-19T22:31:47.283+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:31:47.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:31:47.288+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:31:47.288+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:31:47.641+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:31:47.670+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:31:47.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:31:47.687+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:31:47.687+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:31:47.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.449 seconds
+[2025-06-19T22:32:18.030+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:32:18.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:32:18.033+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:32:18.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:32:18.353+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:32:18.383+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:32:18.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:32:18.398+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:32:18.398+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:32:18.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.406 seconds
+[2025-06-19T22:32:48.569+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:32:48.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:32:48.573+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:32:48.573+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:32:48.955+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:32:48.991+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:32:48.990+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:32:49.009+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:32:49.009+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:32:49.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.479 seconds
+[2025-06-19T22:33:19.111+0000] {processor.py:161} INFO - Started process (PID=114) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:33:19.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:33:19.115+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:33:19.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:33:19.445+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:33:19.473+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:33:19.472+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:33:19.489+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:33:19.489+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:33:19.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.418 seconds
+[2025-06-19T22:33:49.602+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:33:49.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:33:49.606+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:33:49.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:33:49.994+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:33:50.032+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:33:50.031+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:33:50.050+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:33:50.049+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:33:50.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.482 seconds
+[2025-06-19T22:34:20.996+0000] {processor.py:161} INFO - Started process (PID=120) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:34:20.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:34:20.999+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:34:20.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:34:21.511+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:34:21.538+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:34:21.537+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:34:21.551+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:34:21.551+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:34:21.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.598 seconds
+[2025-06-19T22:34:52.406+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:34:52.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:34:52.411+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:34:52.410+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:34:52.970+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:34:53.004+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:34:53.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:34:53.023+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:34:53.022+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:34:53.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.652 seconds
+[2025-06-19T22:35:23.865+0000] {processor.py:161} INFO - Started process (PID=126) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:35:23.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:35:23.869+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:35:23.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:35:24.205+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:35:24.230+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:35:24.230+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:35:24.245+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:35:24.245+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:35:24.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.415 seconds
+[2025-06-19T22:35:54.544+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:35:54.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:35:54.548+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:35:54.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:35:54.871+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:35:54.899+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:35:54.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:35:54.914+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:35:54.914+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:35:54.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.417 seconds
+[2025-06-19T22:36:25.081+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:36:25.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:36:25.085+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:36:25.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:36:25.507+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:36:25.593+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:36:25.592+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:36:25.625+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:36:25.625+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:36:25.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.593 seconds
+[2025-06-19T22:36:55.786+0000] {processor.py:161} INFO - Started process (PID=136) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:36:55.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:36:55.790+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:36:55.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:36:56.129+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:36:56.164+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:36:56.163+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:36:56.181+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:36:56.181+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:36:56.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.426 seconds
+[2025-06-19T22:37:26.624+0000] {processor.py:161} INFO - Started process (PID=142) to work on /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:37:26.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/beer_silver_dag.py for tasks to queue
+[2025-06-19T22:37:26.627+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:37:26.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:37:27.008+0000] {processor.py:840} INFO - DAG(s) 'beer_silver_dag' retrieved from /opt/airflow/dags/beer_silver_dag.py
+[2025-06-19T22:37:27.039+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:37:27.039+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-19T22:37:27.056+0000] {logging_mixin.py:188} INFO - [2025-06-19T22:37:27.056+0000] {dag.py:3954} INFO - Setting next_dagrun for beer_silver_dag to None, run_after=None
+[2025-06-19T22:37:27.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/beer_silver_dag.py took 0.471 seconds

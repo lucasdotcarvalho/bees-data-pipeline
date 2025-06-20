@@ -1,0 +1,19 @@
+[2025-06-19T22:47:40.085+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-19T22:47:40.132+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beer_pipeline_dag.transform_silver manual__2025-06-19T22:47:28.906427+00:00 [queued]>
+[2025-06-19T22:47:40.151+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beer_pipeline_dag.transform_silver manual__2025-06-19T22:47:28.906427+00:00 [queued]>
+[2025-06-19T22:47:40.152+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2025-06-19T22:47:40.174+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_silver> on 2025-06-19 22:47:28.906427+00:00
+[2025-06-19T22:47:40.187+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'beer_pipeline_dag', 'transform_silver', 'manual__2025-06-19T22:47:28.906427+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/beer_dag.py', '--cfg-path', '/tmp/tmpt03o60ia']
+[2025-06-19T22:47:40.190+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=42) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-19T22:47:40.192+0000] {standard_task_runner.py:91} INFO - Job 25: Subtask transform_silver
+[2025-06-19T22:47:40.193+0000] {standard_task_runner.py:63} INFO - Started process 51 to run task
+[2025-06-19T22:47:40.223+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-19T22:47:40.324+0000] {task_command.py:426} INFO - Running <TaskInstance: beer_pipeline_dag.transform_silver manual__2025-06-19T22:47:28.906427+00:00 [running]> on host b50caf24fc7a
+[2025-06-19T22:47:40.483+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='lucasfilip54@gmail.com' AIRFLOW_CTX_DAG_OWNER='lucascarvalho' AIRFLOW_CTX_DAG_ID='beer_pipeline_dag' AIRFLOW_CTX_TASK_ID='transform_silver' AIRFLOW_CTX_EXECUTION_DATE='2025-06-19T22:47:28.906427+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-19T22:47:28.906427+00:00'
+[2025-06-19T22:47:40.486+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-19T22:47:40.851+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-19T22:47:40.853+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-19T22:47:40.870+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=beer_pipeline_dag, task_id=transform_silver, run_id=manual__2025-06-19T22:47:28.906427+00:00, execution_date=20250619T224728, start_date=20250619T224740, end_date=20250619T224740
+[2025-06-19T22:47:40.933+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-19T22:47:40.971+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-19T22:47:40.974+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
