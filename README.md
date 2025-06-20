@@ -24,6 +24,11 @@ bees-case/
 ├── airflow_pipeline/         
 │   └── dags/
 │       └── beer_dag.py       # DAG Consolidada estrutura Data Lake finalizada
+├── └── Dockerfile            # Dockerfile para ambiente local (ex: Jupyter)
+├── └── docker-compose
+├── └── pipeline_functions.py # Arquivo local separado de Airflow para testes
+├── └── teste_pipeline.py     # Executável de teste pipeline_functions.py
+
 
 ├── notebooks/                # Scripts Jupyter originais com estrutura Data Lake teste
         ├── data/                     
@@ -31,7 +36,7 @@ bees-case/
 │       ├── silver/
 │       └── gold/
 
-├── Dockerfile                # Dockerfile para ambiente local (ex: Jupyter)
+
 └── README.md                 # Documentação do projeto
 ```
 

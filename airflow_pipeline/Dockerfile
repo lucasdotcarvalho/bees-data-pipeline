@@ -8,7 +8,6 @@ RUN pip install --no-cache-dir \
     fastparquet \
     jupyterlab
 
-WORKDIR /home/project
-COPY . /home/project
+COPY ./
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]

@@ -1,0 +1,20 @@
+[2025-06-20T03:21:25.880+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-20T03:21:25.913+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: beer_pipeline.gerar_gold manual__2025-06-20T03:14:27+00:00 [queued]>
+[2025-06-20T03:21:25.923+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: beer_pipeline.gerar_gold manual__2025-06-20T03:14:27+00:00 [queued]>
+[2025-06-20T03:21:25.924+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-06-20T03:21:25.938+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): gerar_gold> on 2025-06-20 03:14:27+00:00
+[2025-06-20T03:21:25.947+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=249) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-06-20T03:21:25.949+0000] {standard_task_runner.py:63} INFO - Started process 258 to run task
+[2025-06-20T03:21:25.947+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'beer_pipeline', 'gerar_gold', 'manual__2025-06-20T03:14:27+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/beer_dag.py', '--cfg-path', '/tmp/tmp462aimsv']
+[2025-06-20T03:21:25.951+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask gerar_gold
+[2025-06-20T03:21:25.970+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-06-20T03:21:26.031+0000] {task_command.py:426} INFO - Running <TaskInstance: beer_pipeline.gerar_gold manual__2025-06-20T03:14:27+00:00 [running]> on host a13c0f0986f3
+[2025-06-20T03:21:26.129+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='lucasfilip54@gmail.com' AIRFLOW_CTX_DAG_OWNER='lucascarvalho' AIRFLOW_CTX_DAG_ID='beer_pipeline' AIRFLOW_CTX_TASK_ID='gerar_gold' AIRFLOW_CTX_EXECUTION_DATE='2025-06-20T03:14:27+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-20T03:14:27+00:00'
+[2025-06-20T03:21:26.132+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-20T03:21:26.602+0000] {logging_mixin.py:188} INFO - Agregações salvas na Gold.
+[2025-06-20T03:21:26.603+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-20T03:21:26.603+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-20T03:21:26.614+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=beer_pipeline, task_id=gerar_gold, run_id=manual__2025-06-20T03:14:27+00:00, execution_date=20250620T031427, start_date=20250620T032125, end_date=20250620T032126
+[2025-06-20T03:21:26.646+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-20T03:21:26.664+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-20T03:21:26.667+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
